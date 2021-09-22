@@ -1,0 +1,73 @@
+nav li{
+    display: inline-block;
+}
+
+#main-heading{
+    text-align:center;
+}
+
+#music{
+    height:90vh;
+    margin: 2rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 5px 5px 5px 5px;
+    grid-gap: 10px 10px;
+}
+
+#merch{
+    height:90vh;
+    margin: 2rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px 10px;
+}
+
+#cell-1{
+    background-color: blanchedalmond;
+}
+
+#cell-2{
+    background-color: rgb(223, 164, 77);
+}
+
+#cell-3{
+    background-color: rgb(90, 175, 33);
+}
+
+#cell-4{
+    background-color: rgb(197, 38, 38);
+}
+
+#cell-5{
+    background-color: rgb(60, 48, 163);
+}
+
+#cell-6{
+    background-color: rgb(190, 66, 149);
+}
+
+#image-head{
+    text-align:center;
+}
+
+.price_addToCart h4{
+    display: inline-block;
+    margin: 0px 20px 0px 20px;
+}
+
+.price{
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    bottom: 0;
+}
+
+.cart{
+    background-color: lightblue;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    float:right;
+    right:0;
+}
